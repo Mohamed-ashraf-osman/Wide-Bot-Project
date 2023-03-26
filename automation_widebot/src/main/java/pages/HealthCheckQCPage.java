@@ -11,6 +11,7 @@ public class HealthCheckQCPage {
     private By inbox = By.id("botInbox");
 
     public HealthCheckQCPage(WebDriver driver){
+
         this.driver = driver;
     }
 

@@ -16,5 +16,4 @@ public class HomePage {
         return new LoginPage(driver);
     }
 
-
 }
