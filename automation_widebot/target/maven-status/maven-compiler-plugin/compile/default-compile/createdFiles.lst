@@ -1,0 +1,10 @@
+pages\TestWebChat.class
+pages\Inbox.class
+pages\LoginPage.class
+pages\Inbox$ChannelBox$HoverOverAvatar$AgentStatus.class
+pages\Inbox$ChannelBox.class
+pages\HomePage.class
+pages\MyBotsPage.class
+utils\WindowManager.class
+pages\Inbox$ChannelBox$HoverOverAvatar.class
+pages\HealthCheckQCPage.class
