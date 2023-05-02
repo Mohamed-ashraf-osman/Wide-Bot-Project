@@ -1,12 +1,15 @@
 package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import java.util.concurrent.TimeUnit;
+
 public class MybotsList {
     private WebDriver driver;
     private By CreateBotBTN = By.id("addBot");
     private By  CreateMarketingBot =By.cssSelector("#id_1 .card-footer button:nth-child(2)");
-    private  By OpenBotSettings = By.id("#id_12565 .connectButton");
-    private  By OpenBotPlayground = By.id("#id_12565 .card-image-wrapper");
+    private  By OpenBotSettings = By.cssSelector("#id_12565 .connectButton");
+    private  By OpenBotPlayground = By.cssSelector("#id_12565 .card-image-wrapper");
     private  By CreateBlankBot = By.id("#blankBot .button-blank button");
     private  By ScrollList =By.id("#id_12565 [dropdown] button");
     //private  By DeleteBotOption = By.id("#id_13010 .dropdown .button-icon + div.dropdown-menu a:nth-child(1)");
@@ -20,9 +23,8 @@ public class MybotsList {
     {
         driver.findElement(OpenBotSettings).click();
     }
-    public  void OpenBotFromPlayground(WebDriver driver)
-    {
-        driver.findElement(OpenBotPlayground).click();
+    public   void OpenBotFromPlayground(WebDriver driver)
+    {        driver.findElement(OpenBotPlayground).click();
     }
     public void CreateBotfromSkratsh (WebDriver driver)
     {
@@ -40,8 +42,8 @@ public class MybotsList {
    }
     public void DuplicateBotTestCase(WebDriver driver)
     {
-        driver.findElement(ScrollList).click();
-        driver.findElement(DuplicateOption).click();
+       // driver.findElement(ScrollList).click();
+       // driver.findElement(DuplicateOption).click();
     }
 
 

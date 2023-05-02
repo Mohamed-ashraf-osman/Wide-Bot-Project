@@ -1,17 +1,16 @@
 package LoginCases;
+import BaseTests.BaseTests;
 import ENums.Browsers;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pages.Browser;
 import pages.LoginPageSetup;
 
 import java.util.concurrent.TimeUnit;
 
-public class ValidDataCase {
+public class ValidDataCase  extends BaseTests {
     LoginPageSetup loginPageSetup = new LoginPageSetup("widebotpostman@gmail.com","W!deBot12345");
 
 

@@ -1,4 +1,6 @@
 package MybotsListCases;
 
-public class DuplicateBotTestCase {
+import BaseTests.BaseTests;
+
+public class DuplicateBotTestCase  extends BaseTests {
 }

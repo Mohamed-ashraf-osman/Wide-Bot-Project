@@ -1,13 +1,13 @@
 package MybotsListCases;
 
+import BaseTests.BaseTests;
 import ENums.Browsers;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
-import pages.Browser;
 import pages.LoginPageSetup;
 import pages.MybotsList;
 
-public class DeleteBotTestCase {
+public class DeleteBotTestCase extends BaseTests {
     LoginPageSetup loginPageSetup=new LoginPageSetup("widebotpostman@gmail.com","W!deBot12345");
     @Test
     public void SuccessDeleteBot(){
